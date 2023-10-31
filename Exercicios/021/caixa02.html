@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: darkkhaki;}
+        header{ background-color:rgb(152, 149, 104) ;
+                padding:10px;
+                margin: 10px;}
+        nav{background-color: darkgoldenrod;
+             padding: 3px;
+              box-shadow: 1px 1px 1px black;}
+        h1{box-shadow: 3px 3px 3px 3px black;}
+        nav>a{text-decoration: none;
+              color: aliceblue;
+              font-weight: bold;
+            margin: right 30px;}
+
+        nav>a:hover{text-decoration:underline;}
+        main{background-color:aliceblue;
+            padding:10px;
+                margin: 10px;
+                border-radius: 10px 20px 30px 40px;}
+
+        article{background-color: beige;}
+
+        article > aside{
+            background-color: aquamarine;
+            
+
+        }
+
+        footer{background-color:black;
+                color: azure;
+                 text-align:center;
+                  padding: 1px;
+                margin: 0px;}
+        footer> p{ margin: 0px;}
+       
+    </style>
+</head>
+<body>
+    
+    <header>
+        
+        <h1>Meu site</h1> 
+    <nav> 
+        <a href=""> link</a>
+        <a href=""> link</a>
+        <a href=""> link</a>
+        <a href=""> link</a>
+        <a href=""> link</a>
+    
+    </nav>
+    
+    </header>
+    <main>
+        <section id="Assuntos"></section>
+        <section id="Noticias">
+            <article>
+                <h1> Hoje ontem e amanha</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolorem magnam tempore repudiandae quasi architecto, odio, blanditiis impedit nulla distinctio temporibus sed quisquam voluptas numquam possimus adipisci provident, commodi inventore!</p>
+                <aside>
+                    <p>artigo escrito por vasco cagado</p>
+                </aside>
+            </article>
+            <article>
+                <aside></aside>
+            </article>
+        </section>
+    </main>
+    <footer>Desenvolvido por mim</footer>
+</body>
+</html>
